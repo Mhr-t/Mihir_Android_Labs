@@ -2,6 +2,16 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MihirsAndroidLabs" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+         <!-- Primary -->
+        <item name="colorPrimary">@color/my_primary</item>
+
+        <!--Secondary-->
+        <item name="colorSecondary">@color/my_secondary</item>
+
+        <!--status bar -->
+        <item name="android:statusBarColor">@color/my_statusbar</item>
+
+        <!--text color -->
+        <item name="android:textColor">@color/my_text</item>
     </style>
 </resources>
