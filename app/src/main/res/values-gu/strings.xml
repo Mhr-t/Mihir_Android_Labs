@@ -3,4 +3,8 @@
     <string name="app_name">Mihir\'s Android Labs</string>
     <string name="hello_message">હેલો વર્લ્ડ</string>
     <string name="button_message">હું એક બટન છું</string>
+    <string name="hinttext">અહીં કંઈક લખો</string>
+    <string name="editmessage">હું એક EditText છું</string>
+    <string name="the_button_message">શું તમે કોફી પીઓ છો?</string>
+
 </resources>
