@@ -3,4 +3,9 @@
     <string name="app_name">Mihir\'s Android Labs</string>
     <string name="hello_message">હેલો વર્લ્ડ</string>
     <string name="button_message">હું એક બટન છું</string>
+    <string name="myedittext">હું સંપાદિત ટેક્સ્ટ છું</string>
+    <string name="hinttext">અહીં કંઈક લખો</string>
+    <string name="radiobutton">શું તમે કોફી પીઓ છો?</string>
+    <string name="checkbox">શું તમે કોફી પીઓ છો?</string>
+    <string name="switch1">શું તમે કોફી પીઓ છો?</string>
 </resources>
