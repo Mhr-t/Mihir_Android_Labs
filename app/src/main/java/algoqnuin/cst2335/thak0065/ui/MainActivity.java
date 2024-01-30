@@ -26,13 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
         variableBinding.button.setOnClickListener(click->{
 
-            model.editString.observe(this,s -> {
-                variableBinding.textView.setText("your edit text has : "+s);
-            });
-
-
             model.editString.postValue(variableBinding.myedittext.getText().toString());
         });
+
+
+        model.editString.observe(this,s -> {
+            variableBinding.textView.setText("your edit text has : "+s);
+        });
+
 
         model.isSelected.observe(this,selected->{
             variableBinding.checkbox.setChecked(selected);
