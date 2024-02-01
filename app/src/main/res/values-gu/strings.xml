@@ -8,4 +8,5 @@
     <string name="radiobutton">શું તમે કોફી પીઓ છો?</string>
     <string name="checkbox">શું તમે કોફી પીઓ છો?</string>
     <string name="switch1">શું તમે કોફી પીઓ છો?</string>
+    <string name="spin_message">સ્પિન ફ્લેગ</string>
 </resources>

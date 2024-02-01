@@ -7,4 +7,5 @@
     <string name="radiobutton">Do you drink Coffee ?</string>
     <string name="checkbox">Do you drink coffee ?</string>
     <string name="switch1">Do you drink coffee ?</string>
+    <string name="spin_message">Spin Flag</string>
 </resources>
