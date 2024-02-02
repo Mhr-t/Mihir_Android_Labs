@@ -8,7 +8,9 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:laybout_marginTop="27dp"
+    android:layout_marginBottom="27dp">
 
     <TextView
         android:id="@+id/helloTextView"
@@ -55,13 +57,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/flagview"
+        android:id="@+id/yourImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:src="@drawable/flag"
-        app:layout_constraintStart_toStartOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        app:layout_constraintStart_toStartOf="@+id/yourStartId"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/spin_switch"
