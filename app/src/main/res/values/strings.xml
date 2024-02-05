@@ -8,4 +8,7 @@
     <string name="checkbox">Do you drink coffee ?</string>
     <string name="switch1">Do you drink coffee ?</string>
     <string name="spin_message">Spin Flag</string>
+    <string name="button_1">Button1</string>
+    <string name="button_2">Button_2</string>
+    <string name="button_3">Button_3</string>
 </resources>

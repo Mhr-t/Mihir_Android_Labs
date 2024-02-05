@@ -1,13 +1,11 @@
 package algoqnuin.cst2335.thak0065;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.Switch;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imgView = findViewById(R.id.flagview);
-        sw = findViewById(R.id.spin_switch);
+        imgView = findViewById(R.id.yourImageView);
+        sw = findViewById(R.id.switch1
+        );
 
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView helloTextView = findViewById(R.id.helloTextView);
-        helloTextView.setText("Hello, World!");
+
 
         sw.setOnCheckedChangeListener((btn, isChecked) -> {
             if (isChecked) {

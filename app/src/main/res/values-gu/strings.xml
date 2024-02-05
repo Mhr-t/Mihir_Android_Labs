@@ -9,4 +9,7 @@
     <string name="checkbox">શું તમે કોફી પીઓ છો?</string>
     <string name="switch1">શું તમે કોફી પીઓ છો?</string>
     <string name="spin_message">સ્પિન ફ્લેગ</string>
+    <string name="button_1">બટન1</string>
+    <string name="button_2">બટન2</string>
+    <string name="button_3">બટન3</string>
 </resources>
