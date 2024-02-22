@@ -9,4 +9,9 @@
     <string name="checkbox">Bois-tu du café ?</string>
     <string name="switch1">Bois-tu du café ?</string>
     <string name="spin_message">Tourner le drapeau</string>
+    <string name="email_message">Entrez votre adresse email:</string>
+    <string name="hint1">Tapez l\'e-mail ici</string>
+    <string name="password_message">Tapez votre mot de passe :</string>
+    <string name="hint2">Tapez le mot de passe ici</string>
+    <string name="button">se connecter</string>
 </resources>

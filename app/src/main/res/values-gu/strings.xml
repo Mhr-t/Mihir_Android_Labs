@@ -9,4 +9,9 @@
     <string name="checkbox">શું તમે કોફી પીઓ છો?</string>
     <string name="switch1">શું તમે કોફી પીઓ છો?</string>
     <string name="spin_message">સ્પિન ફ્લેગ</string>
+    <string name="email_message">તમારુ ઇમેઇલ એડ્રેસ દાખલ કરો:</string>
+    <string name="hint1">અહીં ઈમેલ લખો</string>
+    <string name="password_message">તમારો પાસવર્ડ લખો:</string>
+    <string name="hint2">અહીં પાસવર્ડ લખો</string>
+    <string name="button">પ્રવેશ કરો</string>
 </resources>
