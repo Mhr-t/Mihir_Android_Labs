@@ -23,8 +23,12 @@
         android:layout_marginTop="24dp"
         android:text="@string/button_message"
         app:layout_constraintTop_toBottomOf="@+id/myedittext"
+
+        tools:layout_editor_absoluteX="129dp" />
+
         tools:layout_editor_absoluteX="129dp"
         tools:ignore="MissingConstraints" />
+
 
     <EditText
         android:id="@+id/myedittext"
@@ -41,24 +45,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+
+        android:text="@string/checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/myswitch"
+        tools:layout_editor_absoluteX="0dp" />
+
         android:text="@string/the_button_message"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/myswitch" />
+
 
     <RadioButton
         android:id="@+id/radiobutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_marginTop="24dp"
+        android:text="@string/radiobutton"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox"
+        tools:layout_editor_absoluteX="0dp" />
+
         android:layout_marginStart="4dp"
         android:layout_marginTop="24dp"
         android:text="@string/the_button_message"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkbox" />
 
+
     <Switch
         android:id="@+id/myswitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_marginTop="192dp"
+        android:text="@string/switch1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
         android:layout_marginStart="52dp"
         android:layout_marginTop="196dp"
         android:text="@string/the_button_message"
@@ -66,24 +89,41 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
+
     <ImageView
         android:id="@+id/imageview"
         android:layout_width="329dp"
         android:layout_height="181dp"
+
+        android:layout_marginTop="12dp"
+        android:src="@drawable/algonquin"
+        app:layout_constraintTop_toBottomOf="@+id/radiobutton"
+        tools:layout_editor_absoluteX="52dp" />
+
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/algon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radiobutton" />
 
+
     <ImageButton
         android:id="@+id/imagebutton"
         android:layout_width="187dp"
         android:layout_height="90dp"
+
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/algonquin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview"
+        tools:layout_editor_absoluteX="129dp" />
+
         android:layout_marginStart="60dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/algon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageview" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,9 @@ android {
     namespace = "algoqnuin.cst2335.thak0065"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "algoqnuin.cst2335.thak0065"
         minSdk = 22
