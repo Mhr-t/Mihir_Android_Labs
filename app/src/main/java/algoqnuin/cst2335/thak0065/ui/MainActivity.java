@@ -1,6 +1,5 @@
 package algoqnuin.cst2335.thak0065.ui;
 
-
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -26,12 +25,22 @@ public class MainActivity extends AppCompatActivity {
 
         variableBinding.button.setOnClickListener(click->{
 
+
             model.editString.postValue(variableBinding.myedittext.getText().toString());
         });
 
 
         model.editString.observe(this,s -> {
             variableBinding.textView.setText("your edit text has : "+s);
+        });
+
+
+            model.editString.observe(this,s -> {
+                variableBinding.textView.setText("your edit text has : "+s);
+            });
+
+
+            model.editString.postValue(variableBinding.myedittext.getText().toString());
         });
 
 
